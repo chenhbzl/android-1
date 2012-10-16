@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, GalleryFlow!</string>
+    <string name="app_name">GalleryFlow</string>
+
+    <string name="btn_done">OK</string>
+    <string name="btn_reset">Reset</string>
+    
+    <string name="gallery_space_text">Gallery Space [-60, 60]</string>
+    <string name="gallery_space_text_hint">Gallery space value must be in the range [-60, 60].</string>
+    
+    <string name="gallery_max_zoom_text">Gallery Max Zoom [-120, 120]</string>
+    <string name="gallery_max_zoom_text_hint">Gallery max zoom value must be in the range [-120, 120].</string>
+    
+    <string name="gallery_max_rotate_angle_text">Gallery Max Rotation Angle [-60, 60]</string>
+    <string name="gallery_max_rotate_angle_text_hint">Gallery max rotation angle must be in the range [-60, 60].</string>
+
+</resources>

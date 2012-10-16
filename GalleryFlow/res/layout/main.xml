@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24px"
+        android:text="@string/hello" />
+
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:gravity="center_vertical"
+        android:layout_marginTop="15px">
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20px"
+            android:text="@string/gallery_space_text"/>
+        
+        <EditText 
+            android:id="@+id/space_edittext"
+            android:layout_marginLeft="20px"
+            android:layout_width="100px"
+            android:layout_height="45px"
+            android:inputType="numberSigned"
+            android:text="50"/>
+        
+        <Button 
+            android:id="@+id/space_confirm_btn"
+            android:layout_marginLeft="20px"
+            android:layout_width="100px"
+            android:layout_height="45px"
+            android:text="@string/btn_done"/>
+    </LinearLayout>
+
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:gravity="center_vertical"
+        android:layout_marginTop="15px">
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20px"
+            android:text="@string/gallery_max_zoom_text"/>
+        
+        <EditText 
+            android:id="@+id/max_zoom_edittext"
+            android:layout_marginLeft="20px"
+            android:layout_width="100px"
+            android:layout_height="45px"
+            android:inputType="numberSigned"
+            android:text="-100"/>
+        
+        <Button 
+            android:id="@+id/max_zoom_confirm_btn"
+            android:layout_marginLeft="20px"
+            android:layout_width="100px"
+            android:layout_height="45px"
+            android:text="@string/btn_done"/>
+    </LinearLayout>
+
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:gravity="center_vertical"
+        android:layout_marginTop="15px">
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20px"
+            android:text="@string/gallery_max_rotate_angle_text"/>
+        
+        <EditText 
+            android:id="@+id/max_rotate_angle_edittext"
+            android:layout_marginLeft="20px"
+            android:layout_width="100px"
+            android:layout_height="45px"
+            android:inputType="numberSigned"
+            android:text="60"/>
+        
+        <Button 
+            android:id="@+id/max_rotate_angle_confirm_btn"
+            android:layout_marginLeft="20px"
+            android:layout_width="100px"
+            android:layout_height="45px"
+            android:text="@string/btn_done"/>
+    </LinearLayout>
+    
+    <com.lee.gallery3d.widget.GalleryFlow
+        android:id="@+id/gallery_flow"
+        android:layout_width="fill_parent"
+        android:layout_height="350px"
+        android:layout_marginTop="20px"/>
+</LinearLayout>
