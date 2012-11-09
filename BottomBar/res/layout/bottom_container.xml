@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+   	    <aisk.bottombar.BottomBar 
+	        android:id="@+id/bottomBar"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" >
+	    </aisk.bottombar.BottomBar>
+	    
+   	    <aisk.bottombar.BottomPanel
+	        android:id="@+id/bottomBarLeft"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" 
+	        android:layout_alignParentLeft="true"/>
+	    
+   	    <aisk.bottombar.BottomPanel
+	        android:id="@+id/bottomBarRight"
+	        android:layout_alignParentRight="true"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+	    
+
+</RelativeLayout>

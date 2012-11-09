@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#555555"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:text="@string/hello" />
+	<aisk.bottombar.BottomContainer
+	    android:layout_width="fill_parent"
+	    android:layout_height="80dp">
+	</aisk.bottombar.BottomContainer>
+	<aisk.timebar.TimePicker
+	    android:id="@+id/picker"
+	    android:layout_width="fill_parent"
+	    android:layout_height="80dp">
+	</aisk.timebar.TimePicker>
+
+</LinearLayout>
